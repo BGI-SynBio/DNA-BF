@@ -208,7 +208,7 @@ class Filter(object):
         if deleted_list:
             false_positives_keys = np.where(np.array(deleted_list) < 0)[0]
         else:
-            false_positives_keys = np.where(np.array(self.deleted_filter_list))
+            false_positives_keys = np.where(np.array(self.deleted_filter_list) < 0)[0]
 
         if verbose:
             print("Find out all dna fragments whose whole hash values locate at the negative vector.", flush=True)

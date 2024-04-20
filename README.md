@@ -81,3 +81,19 @@ In addition, the packages we are calling now is as follows:
 
 ## Running
 Please see the running scripts in examples folder.
+
+## Citation
+If you think this repo helps or being used in your research, please consider refer this 
+[paper](https://academic.oup.com/bib/article/25/3/bbae125/7636770?login=false):
+````
+@article{li2024dna,
+  title={DNA Bloom Filter enables anti-contamination and file version control for DNA-based data storage},
+  author={Li, Yiming and Zhang, Haoling and Chen, Yuxin and Shen, Yue and Ping, Zhi},
+  journal={Briefings in Bioinformatics},
+  volume={25},
+  number={3},
+  pages={bbae125},
+  year={2024},
+  publisher={Oxford University Press}
+}
+````
